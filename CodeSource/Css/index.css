@@ -410,111 +410,53 @@ span{
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .home {
-        flex-direction: column;
-        text-align: center;
-        background-position: center;
-        margin-right: 0;
-    }
-
-    .home-content {
-        margin: auto;
-    }
-
-    .home-imghover {
-        display: none;
-    }
-
-    .navbar a {
-        margin-left: 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        padding: 10px 5%;
-    }
-
-    .navbar a {
-        margin-left: 15px;
-        font-size: 16px;
-    }
-
+@media (max-width: 768px) {
     .home-content h2 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .home-content h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .home-content h3 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .home-content p {
         font-size: 14px;
     }
 
-    .btn-box {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .btn-box a {
-        width: 120px;
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .navbar {
-        display: flex;
+    .home-content .btn-box {
         flex-direction: column;
         align-items: center;
-    }
-
-    .navbar a {
-        margin: 10px 0;
-        font-size: 14px;
-    }
-
-    .home-content h2 {
-        font-size: 30px;
-    }
-
-    .home-content h1 {
-        font-size: 35px;
-    }
-
-    .home-content h3 {
-        font-size: 20px;
-    }
-
-    .home-content p {
-        font-size: 12px;
-    }
-
-    .btn-box {
-        flex-direction: column;
-        gap: 10px;
+        height: auto;
     }
 
     .btn-box a {
         width: 100%;
         text-align: center;
-        padding: 10px;
     }
 
     .home-sci {
-        flex-direction: column;
-        width: 100%;
+        justify-content: center;
+        width: auto;
     }
 
-    .home-sci a {
-        margin-bottom: 10px;
+    .home {
+        margin-right: 0;
+        padding: 0 5%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .home-imghover {
+        width: 100%;
+        right: 0;
+    }
+
+    .heading {
+        font-size: 3rem;
     }
 
     .about-img {
@@ -522,15 +464,15 @@ span{
         height: 20rem;
     }
 
-    .about-content {
-        padding: 1rem;
-    }
-
     .about-content h3 {
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .about-content p {
         font-size: 14px;
+    }
+
+    .btn-box.about {
+        flex-direction: column;
     }
 }
